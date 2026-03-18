@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+:root {
+  --glass: rgba(255,255,255,0.04);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Simple utility */
+.container-max { max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+
+/* :root {
+  --bg-dark: #0a0a0a;
+  --bg-light: #ffffff;
+  --text-dark: #111111;
+  --text-light: #f5f5f5;
+}
+
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+body.light {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+} */
